@@ -1,5 +1,5 @@
 """
-Django settings for ludiostium1 project.
+Django settings for ludiostium project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'portal',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -48,9 +49,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'ludiostium1.urls'
+ROOT_URLCONF = 'ludiostium.urls'
 
-WSGI_APPLICATION = 'ludiostium1.wsgi.application'
+WSGI_APPLICATION = 'ludiostium.wsgi.application'
 
 
 # Database
@@ -66,9 +67,9 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en-ca'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Halifax'
 
 USE_I18N = True
 
